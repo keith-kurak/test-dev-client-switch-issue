@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.keithkurak.testdevclientswitchissue"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,21 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ecd55cb5-5c12-483b-b441-612700c360e9"
+      }
+    },
+    "owner": "keith-kurak",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ecd55cb5-5c12-483b-b441-612700c360e9"
     }
   }
 }
